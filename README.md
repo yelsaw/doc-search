@@ -24,7 +24,7 @@ Sample data is hard-coded in the App.svelte file, there's zero security or sanit
 The code/comments herein aren't perfect, this project was written on a whim in a few hours and maybe updated to become useful and use "Best Practices" in the future.
 
 ### Screenshot
-![UI Screenshot](https://github.com/yelsaw/doc-search/screenshot.png "UI Screenshot")
+![image](https://github.com/yelsaw/doc-search/screenshot.png)
 
 # AUTHOR
 Yelsaw (doc-search@yelsaw.com)
