@@ -7,7 +7,7 @@ This is an example app written with [Svelte](https://svelte.dev/) which uses [Ta
 ### Run without Docker
 To start without docker run the following commands
 ```
-git clone git@github.com:yelsaw/doc-search.git
+git clone https://github.com/yelsaw/doc-search.git
 cd doc-search
 npm install
 npm run dev
@@ -19,7 +19,7 @@ Alternatively use [PNPM](https://pnpm.io/installation) (i.e., pnpm install, etc)
 # Build image and start container
 To build the image and start a docker container run the following commands
 ```
-git clone git@github.com:yelsaw/doc-search.git
+git clone https://github.com/yelsaw/doc-search.git
 cd doc-search
 docker build . -t doc-search
 docker run --rm --name=doc-search -p 5000:80 doc-search
