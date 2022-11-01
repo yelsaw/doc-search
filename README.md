@@ -1,4 +1,4 @@
-# Doc Search v1.0.0
+# Doc Search v1.0
 
 ### What is this?
 Main app for doc search example UI, refer to [doc-search](https://github.com/yelsaw/doc-search) for more information.
