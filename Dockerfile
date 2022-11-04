@@ -2,9 +2,6 @@ FROM node:18.8.0-alpine AS nodebuilder
 
 RUN mkdir -p /app
 WORKDIR /app
-
-#COPY package.json ./
-#COPY pnpm-lock.yaml ./
 COPY . .
 RUN npm install -g pnpm@$pnpm
 RUN pnpm install
