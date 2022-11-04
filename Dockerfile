@@ -2,7 +2,7 @@ FROM node:18.8.0-alpine AS nodebuilder
 
 RUN mkdir -p /app
 WORKDIR /app
-COPY . .
+COPY app .
 RUN npm install -g pnpm@$pnpm
 RUN pnpm install
 RUN pnpm run build

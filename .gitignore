@@ -1,2 +1,2 @@
-node_modules
-.vite
+app/dist
+app/node_modules
