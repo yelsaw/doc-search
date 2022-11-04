@@ -34,7 +34,7 @@ Sample data is hard-coded in the App.svelte file, there's zero security or sanit
 The code/comments herein aren't perfect, this project was written on a whim in a few hours and could be updated to become useful using "Best Practices" in the future.
 
 ### Screenshot
-![image](https://github.com/yelsaw/doc-search/blob/main/screenshot.png)
+![image](https://github.com/yelsaw/doc-search/blob/main/app/screenshot.png)
 
 # AUTHOR
 Yelsaw (doc-search@yelsaw.com)
