@@ -31,7 +31,7 @@ This project is for experimental and educational purposes only!
 
 Sample data is hard-coded in the App.svelte file, there's zero security or sanity checking. 
 
-The code/comments herein aren't perfect, this project was written on a whim in a few hours and maybe updated to become useful and use "Best Practices" in the future.
+The code/comments herein aren't perfect, this project was written on a whim in a few hours and could be updated to become useful using "Best Practices" in the future.
 
 ### Screenshot
 ![image](https://github.com/yelsaw/doc-search/blob/main/screenshot.png)
