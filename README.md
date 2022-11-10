@@ -15,9 +15,8 @@ npm run dev
 Alternatively use [PNPM](https://pnpm.io/installation) (i.e., pnpm install, etc) for much faster builds.
 
 ### Run with Docker
-
-# Build image and start container
 To build the image and start a docker container run the following commands
+
 ```
 git clone https://github.com/yelsaw/doc-search.git
 cd doc-search
@@ -31,7 +30,7 @@ This project is for experimental and educational purposes only!
 
 Sample data is hard-coded in the App.svelte file, there's zero security or sanity checking. 
 
-The code/comments herein aren't perfect, this project was written on a whim in a few hours and could be updated to become useful using "Best Practices" in the future.
+The code/comments herein aren't perfect, this project was written on a whim in a few hours to show a PoC to someone and could be updated in the future.
 
 ### Screenshot
 ![image](https://github.com/yelsaw/doc-search/blob/main/app/screenshot.png)
