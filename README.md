@@ -26,7 +26,7 @@ docker run --rm --name=doc-search -p 5000:80 doc-search
 ```
 Proceed to http://localhost:5000, or whatever port was chosen when starting your container.
 
-### Caveat Emptor
+### Caveat Usor 
 This project is for experimental and educational purposes only! 
 
 Sample data is hard-coded in the App.svelte file, there's zero security or sanity checking. 
