@@ -10,9 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: peaceiris/actions-gh-pages@v3
-    - name: Use Node.js ${{ matrix.node-version }}
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
       with:
+        node-version: 18
         publish_dir: ./app/dist
     - run: cd app
     - run: npm install
