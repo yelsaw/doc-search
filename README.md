@@ -5,9 +5,6 @@ This is an example app written with [Svelte](https://svelte.dev/) which uses [Ta
 
 Refer to [doc-search](https://github.com/yelsaw/doc-search) for more information.
 
-### Live Demo
-https://yelsaw.github.io/doc-search/
-
 ### Run without Docker
 To start without docker run the following commands
 
@@ -30,6 +27,9 @@ docker build . -t doc-search
 docker run --rm --name=doc-search -p 5000:80 doc-search
 ```
 Proceed to http://localhost:5000/doc-search, or whatever port was chosen when starting your container.
+
+### Live Demo
+https://yelsaw.github.io/doc-search/
 
 ### Caveat Usor
 This project is for experimental and educational purposes only!
