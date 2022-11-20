@@ -2,7 +2,7 @@
 import { fly, fade } from 'svelte/transition'
 
 
-export let directions = 'After you perform a search details will be populated if the string is found'
+export let directions = 'After you perform a search, details will be populated below if the string is found'
 export let docSamples = []
 
 
