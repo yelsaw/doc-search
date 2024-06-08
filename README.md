@@ -46,4 +46,4 @@ Perhaps this app will become more useful over time, but for now it's only an `ex
 Yelsaw (doc-search@yelsaw.com)
 
 # LICENSE
-[MIT] (https://github.com/yelsaw/doc-search/blob/main/LICENSE)
+doc-search is licensed under the [copyfree](http://copyfree.org) ISC License.
