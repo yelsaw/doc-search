@@ -1,4 +1,4 @@
-FROM node:18.8.0-alpine AS nodebuilder
+FROM node:18.12-alpine AS nodebuilder
 
 RUN mkdir -p /app
 WORKDIR /app
