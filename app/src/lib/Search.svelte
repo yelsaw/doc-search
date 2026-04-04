@@ -111,7 +111,7 @@ const removeAll = (index) => {
       </div>
       <div class="mt-2">
       {#if searchStrings.length > 0 }
-        <div transition:fade="{{ duration: 600 }}" class="bg-white py-5 px-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+        <div transition:fade="{{ duration: 300 }}" class="bg-white py-5 px-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
           <dt class="text-sm font-medium text-gray-500">Last Searches:<br />
             <p class="mt-1 max-w-2xl text-sm text-gray-500">(Doc:Position)</p>
             <button class="rounded-md bg-red-300 px-1 py-1 text-center text-red-800 hover:bg-gray-100 hover:text-black" on:click={removeAll}>Remove All</button>
