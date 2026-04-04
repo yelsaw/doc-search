@@ -127,7 +127,7 @@ const removeAll = (index) => {
                   {/each}
                 </div>
                 <div  class="ml-4 flex-shrink-0">
-                  <button class="rounded-md bg-red-300 px-1 py-1 text-center text-red-800 hover:bg-gray-100 hover:text-black" on:click={() => removeSingle(i)}>Remove</button>
+                  <button class="rounded-md px-1 py-1 text-center text-red-800 hover:bg-gray-100 hover:text-black" on:click={() => removeSingle(i)}>&#128465;</button>
                 </div>
               </li>
               {/each}
