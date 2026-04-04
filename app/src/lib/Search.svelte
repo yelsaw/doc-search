@@ -40,7 +40,7 @@ const documentMeta = (strings, searchString) => {
     return text.split(/ /)
   }).map((words, docId ) => {
       return words.map((word, position) => {
-        return { doc:docId + 1, position:position, word:word }
+        return { doc:docId + 1, position:position + 1, word:word }
       })
   }).flat(1).filter(doc => doc.word.toLowerCase() === searchString.toLowerCase())
 }
